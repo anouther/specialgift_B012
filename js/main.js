@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Happy Valentine’s Day, my love.').split('');
+        const titles = ('ACEL, I LOVE YOU.').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "For the one who loves flowers more than anything, here’s a bouquet made just for you. Each petal is a reminder of how much you mean to me, blooming with love that will never fade. You’re my forever favorite, just like the flowers you adore.";
+            subtitle.innerText = "I don't just love you for who you are, I love you for how you make me feel like I'm finally home, even in the chaos of the world.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
